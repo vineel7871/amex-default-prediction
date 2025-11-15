@@ -22,6 +22,10 @@ The project uses two main data files:
 - `train_data.csv`: Customer transaction features
 - `train_labels.csv`: Binary target labels (default/no default)
 
+**Data Source**: [Kaggle - American Express Default Prediction Competition](https://www.kaggle.com/competitions/amex-default-prediction/)
+
+To use this project, download the dataset from Kaggle and place the CSV files in the `data/` directory.
+
 ## Requirements
 
 This project uses [uv](https://github.com/astral-sh/uv) for dependency management.
