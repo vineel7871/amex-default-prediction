@@ -1,0 +1,31 @@
+[project]
+name = "amex-default-prediction"
+version = "0.1.0"
+description = "Machine learning project using PySpark to predict credit card default risk"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "vineel", email = "example@example.com" }
+]
+
+dependencies = [
+    "pyspark>=3.5.0",
+    "xgboost>=1.7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter>=1.0.0",
+    "ipython>=8.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "jupyter>=1.0.0",
+    "ipython>=8.0.0",
+]
